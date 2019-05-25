@@ -1,0 +1,83 @@
+*{
+    font-family: Arial;
+}
+h1{
+    color: lawngreen;
+}
+
+#some-id{
+
+    font-family: initial;
+    
+}
+
+.some-class{
+
+    text-decoration: underline;
+}
+
+#order-list li{/*Selector anidado*/
+    font-style: italic;
+}
+
+h5.some-class { /* Selector Conjuncion*/
+    font-size: 5;
+    font-weight:300; 
+}
+
+body #order-list li{
+
+}
+
+#order-list li:first-of-type{ /*Seudotipos*/
+
+}
+
+#order-tipe li:nth-last-of-type(odd){
+
+}
+#order-tipe li:nth-last-of-type(even){
+}
+*{
+    box-sizing: border-box;
+}
+form{
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 5%;
+    padding: 20px;
+    background: #CCC;
+    border-radius: 5px;
+
+}
+
+p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial;
+    margin: 20px 0;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    height: 30px;
+    padding-left: 50px;
+}
+
+form .btn{
+    height: 30px;
+    padding: 7px 15px;
+    color: white;
+    text-align: center;
+    background-color: orange;
+    border-radius: 20px;
+    
+}
+.navbar .navbar-brand{
+	/*width:150px;*/
+	width:30vw;
+	padding:0;
+}
